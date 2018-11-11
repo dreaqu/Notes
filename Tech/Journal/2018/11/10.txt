@@ -9,3 +9,39 @@ Creation-Date: 2018-11-10T22:12:05-05:00
 
 https://thelocehiliosan.github.io/yadm/docs/faq
 
+easier than rcm. its basically a wrapper for git
+
+yadm add file
+yadm commit 
+
+
+@bash_it
+https://github.com/Bash-it/bash-it
+plan on using bash_it for functions and aliases
+
+
+------
+
+@i3
+installing i3wm-themer....
+
+polybar needs some attention
+
+-----
+
+
+@pulse
+
+
+{{{code: lang="ruby" linenumbers="True"
+Nov 10 23:55:46 soundbot02 pulseaudio[2591]: [pulseaudio] module-jack-sink.c: JACK error >Cannot use real-time scheduling (RR/75)(1: Operation not permitted)<
+}}}
+
+
+adding b08x to pulse group
+
+also, set autospawn to no in client.conf
+
+----
+
+
