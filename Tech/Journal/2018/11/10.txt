@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-10T22:12:05-05:00
+
+====== Saturday 10 Nov 2018 ======
+
+@dotfiles
+# replace rcm with yadm as dotfile/config manager
+
+https://thelocehiliosan.github.io/yadm/docs/faq
+
