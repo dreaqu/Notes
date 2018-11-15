@@ -13,7 +13,7 @@ easier than rcm. its basically a wrapper for git
 
 yadm add file
 yadm commit 
-
+1
 
 @bash_it
 https://github.com/Bash-it/bash-it
@@ -44,4 +44,15 @@ also, set autospawn to no in client.conf
 
 ----
 
+@ruby @pd
 
+https://matschaffer.com/2010/11/ruby-midi-pure-data/
+https://github.com/mgsx-dev/pd-offline
+https://github.com/michelson/osc-puredata-ruby
+https://github.com/nagachika/ruby-puredata
+
+
+--------
+
+@mixxx @midi
+https://www.mixxx.org/wiki/doku.php/mixxxcontrols
