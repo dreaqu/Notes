@@ -27,6 +27,7 @@ xdg-settings set default-web-browser firefox.desktop
 
 setting deadbeef up as a sampler editor...
 
+add copyinfo plugin and set to copy filename
 
 ----
 
