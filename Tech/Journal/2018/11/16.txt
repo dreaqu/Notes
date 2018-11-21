@@ -38,3 +38,39 @@ opened up 40418 on localip 192.168.0.80
 
 67.149.110.187
 
+@debian
+attempting to get rid of 
+{{{code: lang="sh" linenumbers="True"
+Nov 16 11:38:50 soundbot02 kernel: pcieport 0000:00:1c.0:    [12] Replay Timer Timeout  
+Nov 16 11:38:50 soundbot02 kernel: pcieport 0000:00:1c.0:   device [8086:9d14] error status/mask=00001000/00002000
+Nov 16 11:38:50 soundbot02 kernel: pcieport 0000:00:1c.0: PCIe Bus Error: severity=Corrected, type=Data Link Layer, id=00e0(Transmitter
+Nov 16 11:38:50 soundbot02 kernel: pcieport 0000:00:1c.0: AER: Corrected error received: id=00e0
+Nov 16 11:38:02 soundbot02 sudo[18389]: pam_unix(sudo:session): session closed for user root
+
+}}}
+
+by adding; 
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet pcie_aspm=off"
+
+@sooperlooper
+
+gxtuner -> midi_to_cc -> d2 triggers loop01 record
+
+
+@din @stufftotry	
+
+ams synth plugins..
+
+mixer n trigger3
+
+https://dinisnoise.org/?what=screenshots
+
+flite
+
+@kernel @tablet_input
+might be able to get the walcom tablet to work if we recompile the kernel with
+the drivers set to y
+(look at .config in [[/usr/src/latestkernel]]
+
+
